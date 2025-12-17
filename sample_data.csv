@@ -1,0 +1,4 @@
+device_name,timestamp,power,status
+Inverter-1,2025-01-01T10:00:00,230.5,OK
+Inverter-1,2025-01-01T11:00:00,240.0,OK
+Inverter-2,2025-01-01T10:30:00,0,OFFLINE
