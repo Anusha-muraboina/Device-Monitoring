@@ -103,17 +103,22 @@ API Endpoints
     Example:
 
     curl http://127.0.0.1:8000/api/devices/
+
+<img width="1911" height="1081" alt="Screenshot 2025-12-17 104743" src="https://github.com/user-attachments/assets/1981d10e-ad0b-4953-b645-d7a7ebb93c18" />
 2. Device summary with optional date filter
 
     GET /api/devices/<id>/summary/
     With date range:
+<img width="1903" height="1055" alt="Screenshot 2025-12-17 104813" src="https://github.com/user-attachments/assets/fabaf30c-baad-4e41-8916-e98844e42c7d" />
 
 pgsql
+
 
 GET /api/devices/<id>/summary/?from=YYYY-MM-DD&to=YYYY-MM-DD
 Example:
 
 
+<img width="1919" height="1003" alt="Screenshot 2025-12-17 104835" src="https://github.com/user-attachments/assets/f88a0b9c-c6f0-4f23-a36f-7ae124212dba" />
 
 curl http://127.0.0.1:8000/api/devices/1/summary/?from=2025-01-01&to=2025-01-31
 CSV File Format
