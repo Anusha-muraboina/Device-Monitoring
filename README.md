@@ -104,12 +104,14 @@ API Endpoints
 
     curl http://127.0.0.1:8000/api/devices/
 
-<img width="1911" height="1081" alt="Screenshot 2025-12-17 104743" src="https://github.com/user-attachments/assets/1981d10e-ad0b-4953-b645-d7a7ebb93c18" />
+<img width="1911" height="1081" alt="Screenshot 2025-12-17 104743" src="https://github.com/user-attachments/assets/65a7f10f-1271-4c86-9cb6-291d868104eb" />
+
 2. Device summary with optional date filter
 
     GET /api/devices/<id>/summary/
     With date range:
-<img width="1903" height="1055" alt="Screenshot 2025-12-17 104813" src="https://github.com/user-attachments/assets/fabaf30c-baad-4e41-8916-e98844e42c7d" />
+<img width="1903" height="1055" alt="Screenshot 2025-12-17 104813" src="https://github.com/user-attachments/assets/758c1f4b-bd1d-4da2-be93-d9f526e8866e" />
+
 
 pgsql
 
@@ -118,7 +120,8 @@ GET /api/devices/<id>/summary/?from=YYYY-MM-DD&to=YYYY-MM-DD
 Example:
 
 
-<img width="1919" height="1003" alt="Screenshot 2025-12-17 104835" src="https://github.com/user-attachments/assets/f88a0b9c-c6f0-4f23-a36f-7ae124212dba" />
+<img width="1919" height="1003" alt="Screenshot 2025-12-17 104835" src="https://github.com/user-attachments/assets/18574931-b317-4bee-944d-89e5abdece5a" />
+
 
 curl http://127.0.0.1:8000/api/devices/1/summary/?from=2025-01-01&to=2025-01-31
 CSV File Format
